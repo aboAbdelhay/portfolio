@@ -1,8 +1,9 @@
+new WOW().init();
 // -------------------
 // animation to change the words in home
 // -------------------
 var typed = new Typed("#element", {
-  strings: [" Ahmed Sayed^1000 ", " Developer^1000 ", " Designer^1000 "],
+  strings: [" I'm Ahmed Sayed Abdelhay^1000 ", " Front End Developer^1000 ", "Framework React.js/Next.js^1000 "],
   typeSpeed: 30,
   backSpeed: 30,
   loop: true,

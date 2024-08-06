@@ -11,6 +11,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/all.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -24,7 +25,7 @@
     <header id="navbar">
       <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-          <a class="navbar-brand logo" href="#">Portfolio</a>
+          <a class="navbar-brand logo wow slideInLeft" href="#">Portfolio</a>
           <button
             class="navbar-toggler border-0 shadow-none"
             type="button"
@@ -40,7 +41,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul
-              class="navbar-nav ms-auto mb-2 mb-lg-0 text-md-left text-center"
+              class="navbar-nav ms-auto mb-2 mb-lg-0 text-md-left text-center wow slideInRight"
             >
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#"
@@ -72,9 +73,9 @@
           <div
             class="caption email-white d-flex justify-content-center align-items-center vh-100 flex-column"
           >
-            <h3 class="text-white fw-bold">Hello</h3>
-            <h4 class="text-white">i'm <span id="element"></span></h4>
-            <div class="socaial d-flex align-items-center gap-2 mt-4">
+            <h3 class="text-white fw-bold wow slideInDown">Hello</h3>
+            <h4 class="text-white wow slideInUp"><span id="element"></span></h4>
+            <div class="socaial d-flex align-items-center gap-2 mt-4 wow slideInUp">
               <div class="icon">
                 <a
                   href="https://www.facebook.com/profile.php?id=100010881736331&mibextid=ZbWKwL
@@ -111,16 +112,16 @@
       <section id="about" class="py-5 nvscroll">
         <div class="container my-5">
           <div class="row gy-4 align-items-center gx-4">
-            <div class="col-md-4">
+            <div class="col-md-4 wow slideInLeft">
               <img
                 src="image/Ahmed Sayed Front-End 2.jpg"
                 alt="hero"
                 class="w-100 rounded-5"
               />
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 wow slideInRight">
               <div class="about">
-                <h3>About Me.</h3>
+                <h3 class="wow wobble">About Me.</h3>
                 <span>Front-End Developer ,React.js</span>
                 <p class="about-text">
                   I am <span>Ahmed Sayed</span> As a front-end React.js
@@ -211,17 +212,17 @@
       <!-- !start services -->
       <section id="services" class="py-5 my-5 nvscroll">
         <div class="title">
-          <h2>Skills.</h2>
+          <h2 class="wow wobble">Skills.</h2>
         </div>
         <div class="container">
           <div class="row gy-4 gx-md-5 my-5">
-            <div class="col-md-3">
+            <div class="col-md-3 wow slideInLeft">
               <div class="box rounded-4 text-center shadow py-5">
                 <div class="icon mt-3"><i class="fa-brands fa-html5"></i></div>
                 <h3 class="mt-3">HTML</h3>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 wow rotateIn">
               <div class="box rounded-4 text-center shadow py-5">
                 <div class="icon mt-3">
                   <i class="fa-brands fa-css3"></i>
@@ -229,7 +230,7 @@
                 <h3 class="mt-3">CSS</h3>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 wow rotateIn">
               <div class="box rounded-4 text-center shadow py-5">
                 <div class="icon mt-3">
                   <i class="fa-brands fa-bootstrap"></i>
@@ -237,7 +238,7 @@
                 <h3 class="mt-3">Bootstrap</h3>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 wow slideInRight">
               <div class="box rounded-4 text-center shadow py-5">
                 <div class="icon mt-3">
                   <i class="fa-solid fa-wind"></i>
@@ -245,7 +246,7 @@
                 <h3 class="mt-3">Tailwind</h3>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 wow slideInLeft">
               <div class="box rounded-4 text-center shadow py-5">
                 <div class="icon mt-3">
                   <i class="fa-brands fa-js"></i>
@@ -253,7 +254,7 @@
                 <h3 class="mt-3">JavaScript</h3>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 wow rotateIn">
               <div class="box rounded-4 text-center shadow py-5">
                 <div class="icon mt-3">
                   <i class="fa-solid fa-t"></i>
@@ -261,13 +262,13 @@
                 <h3 class="mt-3">Typescript</h3>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 wow rotateIn">
               <div class="box rounded-4 text-center shadow py-5">
                 <div class="icon mt-3"><i class="fa-brands fa-react"></i></div>
                 <h3 class="mt-3">React</h3>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 wow slideInRight">
               <div class="box rounded-4 text-center shadow py-5">
                 <div class="icon mt-3"><i class="fa-solid fa-n"></i></div>
                 <h3 class="mt-3">Next</h3>
@@ -280,7 +281,7 @@
       <!-- *start works -->
       <section id="works" class="py-5 my-5 nvscroll">
         <div class="title">
-          <h2>Works.</h2>
+          <h2 class="wow wobble">Works.</h2>
         </div>
         <ul
           class="nav nav-pills my-5 justify-content-center"
@@ -354,7 +355,7 @@
           >
             <div class="container">
               <div class="row g-4">
-                <div class="col-md-4">
+                <div class="col-md-4 wow bounceInLeft ">
                   <figure>
                     <img src="image/bookmark.png" alt="" />
                     <figcaption
@@ -377,7 +378,7 @@
                     </figcaption>
                   </figure>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 wow bounceInDown">
                   <figure>
                     <img src="image/game-over.jpg" alt="" />
                     <figcaption
@@ -400,7 +401,7 @@
                     </figcaption>
                   </figure>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 wow bounceInRight">
                   <figure>
                     <img src="image/egyption-party.jpg" alt="" />
                     <figcaption
@@ -423,7 +424,7 @@
                     </figcaption>
                   </figure>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 wow bounceInLeft">
                   <figure>
                     <img src="image/rocker.jpg" alt="" />
                     <figcaption
@@ -446,7 +447,7 @@
                     </figcaption>
                   </figure>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 wow bounceInUp">
                   <figure>
                     <img src="image/mealify.png" alt="" />
                     <figcaption
@@ -469,7 +470,7 @@
                     </figcaption>
                   </figure>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 wow bounceInRight">
                   <figure>
                     <img src="image/devfolio.jpg" alt="" />
                     <figcaption
@@ -836,13 +837,13 @@
       <!-- *start contact -->
       <section id="contact" class="py-5 nvscroll">
         <div class="title">
-          <h2>Contact Us.</h2>
+          <h2 class="wow wobble">Contact Us.</h2>
         </div>
         <div class="container">
           <div class="row justify-content-center my-5">
             <div class="col-md-9">
               <div class="row justify-content-center">
-                <div class="col-md-4">
+                <div class="col-md-4 wow bounceInLeft">
                   <div
                     class="box text-center d-flex justify-content-center align-items-center flex-column gap-2"
                   >
@@ -853,17 +854,17 @@
                     <p>Qanater - Qalubia - Egypt</p>
                   </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 wow bounceInDown">
                   <a
-                    href="mailto:abo.abdelhay.2@gmail.com"
+                    href="mailto:ahmed.sayed.abdelhay7@gmail.com"
                     class="box text-center d-flex justify-content-center align-items-center flex-column gap-2"
                   >
                     <div class="icon"><i class="fa-solid fa-envelope"></i></div>
                     <h3>Email</h3>
-                    <p>abo.abdelhay.2@gmail.com</p>
+                    <p>ahmed.sayed.abdelhay7@gmail.com</p>
                   </a>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 wow bounceInRight">
                   <a
                     href="tel:01288497323"
                     class="box text-center d-flex justify-content-center align-items-center flex-column gap-2"
@@ -876,11 +877,11 @@
               </div>
             </div>
             ​
-            <form action="mailto:abo.abdelhay.2@gmail.com" method="GET">
+            <form action="mailto:ahmed.sayed.abdelhay7@gmail.com" method="GET">
               <div class="row justify-content-center">
                 <div class="col-md-9">
                   <div class="row justify-content-center">
-                    <div class="col-md-6">
+                    <div class="col-md-6 wow bounceInLeft">
                       <input
                         type="text"
                         name="name"
@@ -890,7 +891,7 @@
                         required
                       />
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 wow bounceInUp">
                       <input
                         type="email"
                         name="email"
@@ -900,7 +901,7 @@
                         required
                       />
                     </div>
-                    <div class="col-md-12">
+                    <div class="col-md-12 wow bounceInRight">
                       <textarea
                         name="message"
                         id="message"
@@ -928,6 +929,8 @@
       </div>
     </footer>
     <!-- ?end  footer-->
+    <script src="js/jquery.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/style.js"></script>
