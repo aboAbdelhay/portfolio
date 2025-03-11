@@ -13,7 +13,8 @@ new WOW().init();
 let typed = new Typed("#element", {
   strings: [
     " I'm Ahmed Sayed Abdelhay^1000 ",
-    " Front End Developer^1000 ",
+    " Full-Stack Web Developer^1000 ",
+    " Mern Stack Expert^1000 ",
     "Framework React.js/Next.js^1000 ",
   ],
   typeSpeed: 30,
